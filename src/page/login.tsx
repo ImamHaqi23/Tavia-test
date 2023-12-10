@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import { loginStart, loginSuccess, loginFailure } from '../authSlice';
 import { loginUser } from '../api';
 import './style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Login = () => {
   const dispatch = useDispatch();
