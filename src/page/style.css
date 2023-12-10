@@ -1,0 +1,49 @@
+.centered-form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.navBar {
+    background-color: white;
+}
+
+.sideBar {
+    background-color: white;
+}
+
+.inputVoucher {
+    width: 800px;
+}
+
+.logOut {
+    font-size: small;
+}
+
+.img-logo{
+    margin-bottom: 150px;
+}
+
+.icon-logo{
+    width: 30px;
+    margin: 10px;
+}
+
+.btn-logout{
+    margin-top: 150px;
+}
+
+.bgMain {
+    background-color: #F5F6FA;
+}
+
+.bgOrder {
+    background-color: white;
+    padding: 10px;
+}
+
+@media (max-width: 767px) {
+    /* Pengaturan untuk perangkat mobile (lebar maksimum 767px) */
+    .centered-form {
+      width: 300px;
+      margin: 0 auto;
+    }
